@@ -130,7 +130,6 @@
     )
   )
 )
-
 ;; Secure payment function with fraud detection
 (define-public (secure-payment (recipient principal) (amount uint))
   (let (
