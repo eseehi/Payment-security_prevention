@@ -262,7 +262,6 @@
     (ok (var-get current-day-counter))
   )
 )
-
 ;; Update transaction limits
 (define-public (update-max-transaction-amount (new-amount uint))
   (begin
