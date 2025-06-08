@@ -209,7 +209,6 @@
 )
 
 ;; Admin Functions (Contract Owner Only)
-
 ;; Freeze suspicious account
 (define-public (freeze-account (account principal))
   (begin
