@@ -86,7 +86,6 @@
     )
   )
 )
-
 ;; Check if user exceeds daily limits
 (define-private (check-daily-limits (user principal) (amount uint))
   (let (
